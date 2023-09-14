@@ -30,12 +30,14 @@ function App() {
     <div className="app">
 
       <video 
-      type="video/mp4" 
-      className="background-video" 
-      muted autoPlay loop 
-      ref={videoRef}
-      onCanPlay={() => setPlayBack()}
-      src="vid1.mp4"></video>
+        type="video/mp4" 
+        className="background-video" 
+        muted autoPlay loop 
+        ref={videoRef}
+        onCanPlay={() => setPlayBack()}
+        src="vid1.mp4"
+      >
+      </video>
       <div className="search">
         <input
           type="text"
